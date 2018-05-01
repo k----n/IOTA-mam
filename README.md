@@ -1,17 +1,5 @@
-# django-sshkm [![Build Status](https://travis-ci.org/sshkm/django-sshkm.svg?branch=master)](https://travis-ci.org/sshkm/django-sshkm)
-django-sshkm is a Django based ssh-key management tool.  
-It stores ssh-public-keys in a database and combines them in groups (Development, Operations, Externals, ...). You can assign these groups to operating system users on target hosts and are able to deploy your configurations.  
-  
-Do you have hundreds of hosts/servers and dozens of users or other systems which want to connect to these using SSH?  
-Do you know the problem when an employee leaves the company but knows many passwords of OS-users and now you should better change all your passwords?  
-Do you want to have better control over who can connect to your hosts using SSH?  
-Then django-sshkm is perfect for you.
-
-## Demo
-There is a demo available:  
-URL: [http://sshkm.guruz.at](http://sshkm.guruz.at)  
-USER: admin  
-PASSWORD: admin  
+# IOTA-mam
+This project is forked from django-sshkm is a Django based ssh-key management tool in order to manage decryption of mam streams on IOTA.
 
 ## Requirements
 - Linux
